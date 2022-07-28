@@ -12,7 +12,6 @@ var romanToInt = function( s )
         else count += value( s[i-1] );
     }
 
-    console.log( count );
     return count;
 }
 
@@ -38,4 +37,4 @@ const value = symbol =>
     }
 }
 
-romanToInt( "MCMXCIV" );
+console.log( romanToInt( "MCMXCIV" ) );

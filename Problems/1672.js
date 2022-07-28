@@ -14,6 +14,7 @@ var maximumWealth = function( accounts )
         if ( wealth > maxWealth ) maxWealth = wealth;
     } );
 
-    console.log( maxWealth );
     return maxWealth;
 };
+
+console.log( maximumWealth( [ [ 3, 2, 1,], [ 1, 2, 3] ] ) );

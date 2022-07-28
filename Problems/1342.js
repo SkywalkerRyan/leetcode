@@ -13,6 +13,7 @@ var numberOfSteps = function( num )
         count += 1;
     }
 
-    console.log( count );
     return count;
 };
+
+console.log( numberOfSteps( 1994 ) );
