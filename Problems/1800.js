@@ -6,7 +6,7 @@ var maxAscendingSum = function (nums)
 {
   let maxCur = maxTot = nums[0];
 
-  for (let i = 1; i <= nums.length - 1; i++)
+  for (let i = 1; i < nums.length; i++)
   {
     if (nums[i] <= nums[i - 1])
       maxCur = 0;
